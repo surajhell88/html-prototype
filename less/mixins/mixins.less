@@ -1,0 +1,37 @@
+.text-shadow (@shadow: 0 1px 3px rgba(0, 0, 0, 0.25)) {
+	text-shadow: @shadow;
+}
+.border-radius (@radius) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+}
+.transition (@prop: all, @time: 0.90s, @ease: linear) {
+	-webkit-transition: @prop @time @ease;
+	-moz-transition: @prop @time @ease;
+	-o-transition: @prop @time @ease;
+	-ms-transition: @prop @time @ease;
+	transition: @prop @time @ease;
+}
+//Ramp-up6 Track-405
+.gradient (@text-area) when (@text-area=1) {  
+    background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ffffff));  
+    background: -webkit-linear-gradient(top, #eee, #ffffff);  
+    background: -moz-linear-gradient(top, #eee, #ffffff);  
+    background: -ms-linear-gradient(top, #eee, #ffffff);  
+    background: -o-linear-gradient(top, #eee, #ffffff);  
+}
+.gradient (@text-area) when (@text-area=2) {  
+    background-color: #ffffff;   
+}
+.row-theme (@theme) when (@theme = "conversation-you") {
+	background-color: @conversation-you-bg;
+	padding-left: 10px;
+	border-left: 5px solid @conversation-you;
+}
+.row-theme (@theme) when (@theme = "conversation-other") {
+	background-color: #ffffff;
+	width: auto;
+	border-top: 1px solid #E1E1E1;
+	padding: 10px 20px 12px 15px;
+}
