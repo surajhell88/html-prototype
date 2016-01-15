@@ -6,7 +6,7 @@ It is simple less driven html template.
 
 Make sure you have `npm` and `bower` (globally) installed.
 
-Clone the directory `got clone https://github.com/surajhell88/html-prototype.git`
+Clone the directory `git clone https://github.com/surajhell88/html-prototype.git`
 
 Install dependencies through `npm install` and `bower install`
 
