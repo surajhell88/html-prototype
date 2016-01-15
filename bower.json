@@ -1,0 +1,19 @@
+{
+  "name": "html-prototype",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Suraj Jadhav"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/surajhell88/html-prototype",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

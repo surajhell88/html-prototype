@@ -1,0 +1,27 @@
+{
+  "name": "html-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-app": "http-server -op 8282",
+    "c-less": "./node_modules/less/bin/lessc stylesheet.less stylesheet.css",
+    "c-less-min": "./node_modules/less/bin/lessc --clean-css stylesheet.less stylesheet.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajhell88/html-prototype.git"
+  },
+  "author": "Suraj Jadhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surajhell88/html-prototype/issues"
+  },
+  "homepage": "https://github.com/surajhell88/html-prototype#readme",
+  "devDependencies": {
+    "http-server": "^0.8.5",
+    "less": "^2.5.3",
+    "less-plugin-clean-css": "^1.5.1"
+  }
+}
