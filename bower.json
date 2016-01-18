@@ -16,7 +16,8 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "bootstrap": "~3.3.6"
   }
 }
