@@ -17,7 +17,7 @@ html {
 .container .left-navbar {
   width: 55px;
   height: 100%;
-  background: #0F465D;
+  background: #000;
   float: left;
   position: fixed;
 }
