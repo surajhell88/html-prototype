@@ -16,7 +16,9 @@
     "test",
     "tests"
   ],
-  "devDependencies": {},
+  "devDependencies": {
+    "multiselect": "~0.9.12"
+  },
   "dependencies": {
     "bootstrap": "~3.3.6"
   }
