@@ -2,4 +2,4 @@
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */.navbar-inverse{background-color:#0E5470;border-color:#083243}.carousel .item{height:500px;background-color:#0EC2DB}
+ */.navbar-wrapper{margin:0;padding-top:23px}.navbar-inverse{background-color:#0E5470;border-color:#083243}.navbar-nav>li>a{color:#D6D6D6}.carousel .item{height:500px;background-color:#0EC2DB}
