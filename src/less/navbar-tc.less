@@ -1,5 +1,6 @@
 
 @import "variables-tc.less";
+@import "mixins-tc.less";
 
 .navbar-wrapper {
     // background: @banner-bg;
@@ -41,4 +42,6 @@
 
 
 
-
+.btn-primary {
+  .button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
+}
